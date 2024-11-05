@@ -10,7 +10,7 @@ class Program
         int userNumber = -1;
         while (userNumber != 0)
         {
-            Console.WriteLine("Time to make your numbers list");
+            Console.WriteLine("It's time to make your numbers list");
             Console.Write("Please enter a number followed by Enter (0 to stop the list): ");
             string userResponse = Console.ReadLine();
             userNumber = int.Parse(userResponse);

@@ -73,7 +73,10 @@ namespace JournalApp
                 "What was the best part of my day?",
                 "How did I see the hand of the Lord in my life today?",
                 "What was the strongest emotion I felt today?",
-                "If I had one thing I could do over today, what would it be?"
+                "If I had one thing I could do over today, what would it be?",
+                "Have I done any good today?",
+                "Did I think to pray?",
+                "Did I help someone in need?",
             };
 
             int index = random.Next(prompts.Length);
@@ -82,7 +85,7 @@ namespace JournalApp
 
         static string GetCurrentDate()
         {
-            return DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            return DateTime.Now.ToString("yyyy-MM-dd");
         }
     }
 }

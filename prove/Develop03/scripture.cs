@@ -17,7 +17,7 @@ public class Scripture
 
     public void Display()
     {
-        Console.Clear(); // Clears the console each time the scripture is displayed
+        Console.Clear(); 
         _scriptureReference.Display();
 
         for (int i = 0; i < _words.Length; i++)
